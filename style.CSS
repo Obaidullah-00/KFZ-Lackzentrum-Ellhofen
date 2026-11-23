@@ -588,6 +588,8 @@ textarea {
     background: #111;
 
     aspect-ratio: 16 / 10;
+	border: 3px solid #d31d2a;
+	border-radius: 4px 
 }
 
 .ba-image img {
@@ -616,6 +618,8 @@ textarea {
     background: rgba(0,0,0,0.75);
 
     border: 1px solid rgba(255,255,255,0.2);
+	
+	color: #d31d2a;
 
     font-size: 10px;
     font-weight: 800;
@@ -1252,7 +1256,9 @@ footer p {
     box-shadow: 0 0 15px rgba(211, 29, 42, 0.25);
 }
 
-</style>
-
-
+.image-label {
+    border: 1px solid #d31d2a;
+    color: #d31d2a;
+    background: rgba(8, 10, 13, 0.85);
 }
+
