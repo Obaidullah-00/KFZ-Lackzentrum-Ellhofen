@@ -1244,6 +1244,14 @@ footer p {
     margin: 5px;
     cursor: pointer;
 }
+
+/* Roter Rahmen um die Vorher/Nachher-Bilder */
+.ba-image {
+    border: 2px solid var(--red-light);
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(211, 29, 42, 0.25);
+}
+
 </style>
 
 
